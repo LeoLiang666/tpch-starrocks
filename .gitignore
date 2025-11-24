@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Generated data and temp
+out/
+data/
+tmp_*/
+*.tbl*
+*.part-*
+
+# dbgen sources/build
+tpch-dbgen/
+*/tpch-dbgen/
+
+# Local config (use example instead)
+starrocks_config.json
+

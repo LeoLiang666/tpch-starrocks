@@ -1,0 +1,13 @@
+{
+  "fe_host": "<fe_host>",
+  "fe_query_port": 9030,
+  "fe_http_port": 8030,
+  "db": "tpch_db",
+  "user": "<user>",
+  "password": "<password>",
+  "concurrency": 10,
+  "timeout": 3600,
+  "data_dir": "/path/to/tpch/data/10GB",
+  "schema_size": "100GB"
+}
+

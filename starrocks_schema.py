@@ -24,7 +24,7 @@ SCALE = {
 def buckets(table: str, size: str) -> int:
     base = BASE_BUCKETS[table]
     factor = SCALE.get(size, 1)
-    if table in {"customer", "lineitem", "orders", "part", "partsupp"}:
+    if table in {"customer", "lineitem", "orders", "part", "partsupp", "supplier"}:
         return max(1, base * factor)
     return base
 

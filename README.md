@@ -50,7 +50,7 @@ python3 tpch_gen.py \
 ## BUCKETS 规则与建表 SQL
 - 大表按规模倍增：`customer`、`lineitem`、`orders`、`part`、`partsupp`
   - `100GB→×1`、`1TB→×10`、`10TB→×100`、`100TB→×1000`
-- 小表固定：`nation`、`region`、`supplier` 不翻倍。
+- 小表固定：`nation`、`region` 不翻倍；
 - 所有建表 `replication_num` 统一为 `3`。
 - 生成建表 SQL：
 ```bash
